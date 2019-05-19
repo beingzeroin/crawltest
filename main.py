@@ -4,7 +4,7 @@ from spider import Spider
 from domain import *
 from general import *
 
-PROJECT_NAME = 'PROGRAMIZ'
+PROJECT_NAME = 'data/PROGRAMIZ'
 HOMEPAGE = "https://www.programiz.com/c-programming/examples/remove-characters-string"
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
